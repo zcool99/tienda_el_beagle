@@ -1,0 +1,97 @@
+.contact-page {
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  .contact-page__container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contact-page__heading {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .contact-page__description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .contact-page__form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .contact-page__form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-page__label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-page__input,
+  .contact-page__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .contact-page__textarea {
+    min-height: 100px;
+    resize: vertical;
+  }
+  
+  .contact-page__input:focus,
+  .contact-page__textarea:focus {
+    border-color: #000;
+    outline: none;
+  }
+  
+  .contact-page__button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-page__button:hover {
+    background-color: #333333;
+  }
+  
+  /* Responsividad */
+  @media (max-width: 768px) {
+    .contact-page__container {
+      padding: 15px;
+    }
+  
+    .contact-page__heading {
+      font-size: 1.5rem;
+    }
+  
+    .contact-page__button {
+      padding: 12px;
+      font-size: 1.1rem;
+    }
+  }
+  
