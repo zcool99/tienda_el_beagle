@@ -108,15 +108,6 @@ Diseño completamente adaptado a dispositivos móviles utilizando Flexbox y clas
 2. Subir el proyecto a un repositorio (GitHub, GitLab, etc.).
 3. Conectar el repositorio en [Vercel](https://vercel.com/) y desplegar.
 
-### **En otros servicios (ejemplo: Netlify)**
-1. Generar el build con `npm run build`.
-2. Subir la carpeta `build/` arrastrándola al panel de Netlify.
-3. Configurar un archivo `_redirects` si usas React Router.
-
-### **En AWS S3**
-1. Crear un bucket S3 y habilitar el hosting estático.
-2. Subir los archivos de la carpeta `build/` al bucket.
-3. Opcional: Configurar CloudFront para un dominio personalizado y HTTPS.
 
 ---
 
