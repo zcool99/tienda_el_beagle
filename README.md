@@ -96,7 +96,7 @@ Iconos integrados con Bootstrap:
 <i class="bi bi-cart"></i>
 ```
 
-### 3. **Responsividad**
+### 3. **Responsivo**
 Diseño completamente adaptado a dispositivos móviles utilizando Flexbox y clases de Bootstrap.
 
 ---
