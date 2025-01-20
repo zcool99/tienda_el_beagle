@@ -1,6 +1,6 @@
 # Tienda - El Beagle | React Project
 
-Este proyecto es una aplicación construida con **React** que incluye características como manejo de un carrito de compras, estilos responsivos con BEM y Bootstrap, un formulario de contacto, integración de Google Fonts, y más. Además, está preparado para desplegarse en servicios como **Vercel** y otros hostings populares.
+Este proyecto es una aplicación construida con **React** que incluye características como manejo de un carrito de compras, estilos responsivos con BEM y Bootstrap, un formulario de contacto, integración de Google Fonts, y más. Además, está preparado para desplegarse en servicios como **Vercel**.
 
 ---
 
