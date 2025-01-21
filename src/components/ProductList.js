@@ -15,7 +15,7 @@ function ProductList() {
     queryParams.price ? queryParams.price.split("-").map(Number) : [0, Infinity]
   );
 
-  // Actualizar la URL cuando los filtros cambien
+
   useEffect(() => {
     const query = queryString.stringify({
       search: searchTerm || undefined,
