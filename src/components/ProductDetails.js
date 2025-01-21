@@ -25,6 +25,7 @@ function ProductDetails() {
           <h1>{product.name}</h1>
           <img src={product.image} className="card-img-top" alt={product.name} />
           <div className="card-body">
+            <span class="badge text-bg-dark">{product.category}</span>
             <p>{product.description}</p>
             <p>Precio: ${product.price}</p>
             <div>

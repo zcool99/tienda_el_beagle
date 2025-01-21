@@ -7,6 +7,7 @@ function ProductItem({ product }) {
       <img src={product.image} className="card-img-top" alt={product.name} />
       <div className="card-body">
         <h5 className="card-title">{product.name}</h5>
+        <span class="badge text-bg-dark">{product.category}</span>
         <p className="card-text">{product.description}</p>
         <p className="card-text">${product.price}</p>
         <Link to={`/product/${product.id}`} className="btn btn-dark d-flex justify-content-center">

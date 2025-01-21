@@ -2,6 +2,7 @@
     {
       "id": 1,
       "name": "Playera para perros",
+      "category": "ropa",
       "price": 20,
       "description": "Cómoda y moderna playera para tu perro.",
       "image": "https://omarhs.com/assets/playera_dog.png"
@@ -9,6 +10,7 @@
     {
       "id": 2,
       "name": "Sudadera para perros",
+      "category": "ropa",
       "price": 30,
       "description": "Sudadera cálida para tu perrito.",
       "image": "https://omarhs.com/assets/sudadera_dog.png"
@@ -16,6 +18,7 @@
     {
       "id": 3,
       "name": "Chamarra para perros",
+      "category": "ropa",
       "price": 15,
       "description": "Chamarraa a la moda para perros.",
       "image": "https://omarhs.com/assets/chamarra_dog.jpg"
@@ -23,6 +26,7 @@
     {
         "id": 4,
         "name": "Chaleco para perros",
+        "category": "ropa",
         "price": 35,
         "description": "Gorra a la moda para perros y gatos.",
         "image": "https://omarhs.com/assets/chaleco_dog.jpg"

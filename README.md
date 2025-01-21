@@ -18,8 +18,8 @@ Este proyecto es una aplicación construida con **React** que incluye caracterí
 
 ### Clonar el repositorio
 ```bash
-git clone https://github.com/tu-usuario/nombre-del-repo.git
-cd nombre-del-repo
+git clone https://github.com/zcool99/tienda_el_beagle.git
+cd tienda_el_beagle
 ```
 
 ### Instalar dependencias
@@ -97,7 +97,7 @@ Iconos integrados con Bootstrap:
 ```
 
 ### 3. **Responsivo**
-Diseño completamente adaptado a dispositivos móviles utilizando Flexbox y clases de Bootstrap.
+Diseño completamente adaptado a dispositivos móviles utilizando Flexbox y clases de Bootstrap versión 5.
 
 ---
 
