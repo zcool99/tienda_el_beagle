@@ -12,6 +12,7 @@ import About from "./components/About";
 import Cart from "./components/Cart";
 import Contact from "./components/Contact";
 import ProductList from "./components/ProductList";
+import ProductListAPI from "./components/ProductListAPI";
 import ProductDetails from "./components/ProductDetails";
 import ThankYou from "./components/ThankYou";
 import { CartProvider } from "./context/CartContext";
@@ -27,6 +28,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/products" element={<ProductList />} />
+              <Route path="/products-api" element={<ProductListAPI />} />
               <Route path="/product/:id" element={<ProductDetails />} />
               <Route path="/cart" element={<Cart />} />
               <Route path="/contact" element={<Contact />} />

@@ -20,6 +20,11 @@ const Header = () => {
               </Link>
             </li>
             <li className="nav-item">
+              <Link className="nav-link" to="/products-api">
+                <i class="bi bi-shop"></i> Productos API
+              </Link>
+            </li>
+            <li className="nav-item">
               <Link className="nav-link" to="/about">
               <i class="bi bi-people"></i> Acerca de
               </Link>
